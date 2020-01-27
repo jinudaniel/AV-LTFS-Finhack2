@@ -34,6 +34,7 @@ Public and Private Split Test data is further divided into Public (1st Month) an
 * **[Public LB](https://datahack.analyticsvidhya.com/contest/ltfs-data-science-finhack-2-an-online-hackathon)** : **47th/883 Rank**
 
 ## Approach
+The competition can be treated as a Time Series problem or as a regression problem. I chose the later.
 * The final model was an ensemble of lightgbm and catboost with 0.7 weightage to catboost predictions and 0.3 weightage to lightgbm predictions
 * Date column was extracted to add features like is_quarter_start/end, is_year_start/end etc.
 * Holidays were included from 2017 to 2019. Dates not included in the holiday package was added manually.
@@ -42,3 +43,4 @@ Public and Private Split Test data is further divided into Public (1st Month) an
 ## Things that did not work.
 * Month wise car sales data from 2017 to 2019
 * Year wise GDP data from 2017 to 2019.
+* Cross validation
