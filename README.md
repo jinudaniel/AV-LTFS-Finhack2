@@ -30,8 +30,8 @@ Public and Private Split Test data is further divided into Public (1st Month) an
 
 # Leaderboard
 
-* **[Private LB](https://datahack.analyticsvidhya.com/contest/ltfs-data-science-finhack-2-an-online-hackathon)** : **42nd/833 Rank**
-* **[Public LB](https://datahack.analyticsvidhya.com/contest/ltfs-data-science-finhack-2-an-online-hackathon)** : **47th/883 Rank**
+* **[Private LB](https://datahack.analyticsvidhya.com/contest/ltfs-data-science-finhack-2-an-online-hackathon)** : **30th/833 Rank**
+* **[Public LB](https://datahack.analyticsvidhya.com/contest/ltfs-data-science-finhack-2-an-online-hackathon)** : **36th/883 Rank**
 
 ## Approach
 The competition can be treated as a Time Series problem or as a regression problem. I chose the later.
